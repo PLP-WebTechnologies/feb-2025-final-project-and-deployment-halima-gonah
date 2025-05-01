@@ -1,0 +1,32 @@
+:root {
+  --color-primary: ;
+  --color-primary-light: ;
+  --color-primary-dark: ;
+  --color-secondary: ;
+  --text-color: #444;
+  --color-white: #fff;
+  --bg-color-1: #f7f6f5;
+  --bg-primary: ;
+  --bg-secondary: ;
+  --bg-info: ;
+  --bg-danger: ;
+  --bg-warning: ;
+  --bg-success: ;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-color-1);
+  font-family: sans-serif;
+  font-weight: 400;
+}
